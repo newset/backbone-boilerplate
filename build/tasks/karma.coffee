@@ -36,8 +36,8 @@ module.exports = ->
 
       files: [
         # You can optionally remove this or swap out for a different expect.
-        "bower_components/assert/assert.js"
-        "bower_components/requirejs/require.js"
+        "node_modules/assert/assert.js"
+        "node_modules/requirejs/require.js"
         "test/runner.js"
 
         { pattern: "app/**/*.*", included: false }

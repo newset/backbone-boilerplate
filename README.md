@@ -11,8 +11,8 @@ prescriptive; Backbone Boilerplate changes that.
 
 The Backbone Boilerplate is a way of organizing a web application with some
 opinionated defaults: such as Backbone, Lo-Dash (Underscore compatibility
-build), jQuery, RequireJS, Bower, Grunt, Karma, and the HTML5 Boilerplate
-styles.  Built in testing support for: QUnit, Jasmine, and Mocha with Chai.
+build), jQuery, RequireJS, Grunt, Karma, and Pure CSS styles.  Built in testing
+support for: QUnit, Jasmine, and Mocha with Chai.
 
 Organize your application with a logical file structure, develop your
 Models/Collections/Views/Routers inside modules, and build knowing you have
@@ -31,7 +31,7 @@ for giving me usage rights to his fantastic Boilerplate character.
 
 ## Getting started ##
 
-The easiest way to get started is to install Git and clone the repository:
+An easy way to get started is to install Git and clone the repository:
 
 ``` bash
 # Using Git, fetch only the latest commits.  You won't need the full history
@@ -53,16 +53,13 @@ good idea to update after fetching.
 ``` bash
 # Install global dependencies.  Depending on your user account you may need to
 # gain elevated privileges using something like `sudo`.
-npm install -g grunt-cli bower
+npm install -g grunt-cli
 
 # Optionally install coveralls (integration is baked in with Travis CI).
 npm install -g coveralls
 
 # Install NPM dependencies.
 npm install
-
-# Install Bower dependencies.
-bower install
 ```
 
 ## Build process ##
