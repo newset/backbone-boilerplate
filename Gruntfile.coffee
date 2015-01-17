@@ -9,14 +9,14 @@ module.exports = ->
     "karma:run"
   ]
 
-  # When running the default Grunt command, just lint the code.
+  # Build the project.
   @registerTask "default", [
     "clean"
     "jshint"
-    "karma:run"
+    #"karma:run"
     "processhtml"
     "copy"
-    "requirejs"
+    "browserify"
     "styles"
     "cssmin"
   ]
